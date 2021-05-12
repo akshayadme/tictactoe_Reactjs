@@ -1,9 +1,9 @@
-import React from 'react';
+import React from "react";
 
 const Square = ({ value, onClick }) => {
   return (
     <>
-      <button className="square" onClick={onClick}>
+      <button type="button" className="square" onClick={onClick}>
         {value}
       </button>
     </>
